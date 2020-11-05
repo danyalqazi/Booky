@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'recipe';
+  myImage:string="assets/images/book1.png";
+  // recip:string="assets/images/book2.jpg";
+  recip2:string="assets/images/book3.jpg";
 }
