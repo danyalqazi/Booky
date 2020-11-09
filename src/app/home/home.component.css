@@ -17,11 +17,11 @@
     padding-right: 20px;
 }
 
-[nz-button] {
+.btn {
     margin-right: 8px;
     margin-bottom: 12px;
     margin-top: 15px;
-    border-radius: 20%;
+    border-radius: 30%;
     background-color: white;
     border: dodgerblue;
     padding: 5px;
