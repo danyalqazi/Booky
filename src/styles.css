@@ -7,6 +7,15 @@
     background-size: 100%;
 } */
 
+@import "~ng-zorro-antd/ng-zorro-antd.min.css";
+@import "~ng-zorro-antd/style/index.min.css";
+
+/* Import base styles */
+
+@import "~ng-zorro-antd/button/style/index.min.css";
+
+/* Import one component's styles */
+
 .img {
     width: 100%;
     height: 100%;

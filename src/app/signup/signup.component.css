@@ -4,8 +4,14 @@
     font-size: xx-large;
 }
 
+.join h1 {
+    margin-left: 7%;
+    font-style: italic;
+    color: rgb(10, 64, 65);
+}
+
 .imge {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 40%;
 }
 

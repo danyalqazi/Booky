@@ -2,9 +2,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
-import {SidebarComponent} from'./sidebar/sidebar.component';
-import{SignupComponent} from './signup/signup.component';
-
+import { SidebarComponent } from './dashboard/sidebar.component';
+import { SignupComponent } from './signup/signup.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -12,7 +11,7 @@ const routes: Routes = [
   {path:'sidebar',component:SidebarComponent},
   {path:'signup',component:SignupComponent},
   
-  {path:'**',redirectTo:''}
+  {path:'**',redirectTo:''} 
  
   // {path:'**',redirectTo:''}
 ];
